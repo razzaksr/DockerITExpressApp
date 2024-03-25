@@ -1,0 +1,35 @@
+POST http://localhost:1234/new
+Content-Type: application/json
+
+{
+    "account_number":87656789876,
+    "account_holder":"Razak Mohamed S",
+    "account_balance":12002.2,
+    "contact":12873828933,
+    "email":"razaksrmd@gmail.com"
+}
+
+###
+
+GET http://localhost:1234/view
+
+###
+GET http://localhost:1234/number/87656789876
+
+
+###
+PUT http://localhost:1234/change
+Content-Type: application/json
+
+{
+    "_id": "6600856a9932527cd86dc3b3",
+    "account_number": 87656789876,
+    "account_holder": "Razak Mohamed S",
+    "account_balance": 11000.2,
+    "contact": 12873828933,
+    "email": "razaksrmd@gmail.com",
+    "__v": 0
+  }
+
+###
+DELETE http://localhost:1234/remove/6600856a9932527cd86dc3b3
