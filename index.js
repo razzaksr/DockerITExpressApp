@@ -12,7 +12,7 @@ const kycSchema = mongoose.Schema({
 
 const collection = mongoose.model('kyc',kycSchema)
 
-mongoose.connect("mongodb://mongo:27017/mec_bank")
+mongoose.connect("mongodb://mongo-service:27017/mec_bank")
 
 const app = express()
 app.use(express.json())
