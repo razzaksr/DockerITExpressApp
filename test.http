@@ -2,11 +2,11 @@ POST http://localhost:1234/new
 Content-Type: application/json
 
 {
-    "account_number":87656789876,
-    "account_holder":"Razak Mohamed S",
-    "account_balance":12002.2,
-    "contact":12873828933,
-    "email":"razaksrmd@gmail.com"
+    "account_number":76545654,
+    "account_holder":"Gokul",
+    "account_balance":98221.2,
+    "contact":876787,
+    "email":"gokul@gmail.com"
 }
 
 ###
